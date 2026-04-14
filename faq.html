@@ -534,4 +534,29 @@
 
 <footer>
   © 2026 Atunile Organics — Makindye, Kampala, Uganda &nbsp;|&nbsp;
-  <a href="/cdn-cgi/l/email-protection#fa9b8e8f918d9b8e899f98ba9b8e8f9493969f95889d9b94939989d4999597"><span class="__cf_email__" data-cfemail="016075746a766075726463416075746f686d646e7366606f6862722f626e6c">[email&#160;protected
+  <a href="/cdn-cgi/l/email-protection#fa9b8e8f918d9b8e899f98ba9b8e8f9493969f95889d9b94939989d4999597"><span class="__cf_email__" data-cfemail="016075746a766075726463416075746f686d646e7366606f6862722f626e6c">[email&#160;protected]</a>
+</footer>
+
+<script>
+  function toggleFaq(btn) {
+    const item = btn.closest('.faq-item');
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(el => el.classList.remove('open'));
+    if (!isOpen) item.classList.add('open');
+  }
+
+  function filterCat(cat, btn) {
+    document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    document.querySelectorAll('.faq-section').forEach(section => {
+      if (cat === 'all' || section.dataset.cat === cat) {
+        section.style.display = '';
+      } else {
+        section.style.display = 'none';
+      }
+    });
+  }
+</script>
+
+</body>
+</html>
