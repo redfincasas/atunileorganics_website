@@ -88,3 +88,7 @@ window.addEventListener('hashchange', function() {
     showPage(hash);
   }
 });
+function handlePlaybookForm(e) {
+  e.preventDefault();
+  window.open('/atunile_organics_EUDR_Playbook_3.pdf', '_blank');
+}
