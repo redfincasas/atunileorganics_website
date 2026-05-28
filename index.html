@@ -2505,63 +2505,35 @@ We support the regulation's goal of reducing global deforestation. We also belie
 We explored this issue in detail in our article, "The Plot That Doesn't Exist."
 </p>
 
-<!-- EUDR PLAYBOOK<! FORM -->
-		  
 <!-- EUDR PLAYBOOK FORM -->
 
+<!-- EUDR PLAYBOOK FORM -->
+<!-- EUDR PLAYBOOK FORM -->
 <div style="background:#5C3A1E;border-radius:12px;padding:52px 40px;margin:48px 0;position:relative;overflow:hidden;">
-
   <div style="position:absolute;bottom:0;left:0;width:100%;height:3px;background:linear-gradient(90deg,#B85C38,#C8922A,#E8C56A);"></div>
-
   <p style="font-family:'Montserrat',Arial,sans-serif;font-size:11px;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:#E8C56A !important;margin:0 0 10px;">— Free Resource</p>
-
   <h2 style="font-family:'Playfair Display',Georgia,serif;font-size:1.9rem;font-weight:700;color:#FFFFFF !important;margin:0 0 14px;">Download Our <em style="color:#E8C56A !important;font-style:italic;">EUDR Playbook</em></h2>
-
   <p style="font-family:'Lora',Georgia,serif;font-size:0.95rem;color:#FFFFFF !important;line-height:1.8;margin:0 0 32px;">The Nilotica Shea EUDR Playbook goes deeper — supplier engagement templates, risk assessment frameworks, DDS checklist, and a full compliance stress test. We will send it directly to your inbox.</p>
-
-  <!-- SUCCESS MESSAGE (hidden by default) -->
-  <div id="pb-success" style="display:none;background:rgba(61,107,68,0.3);border:1px solid rgba(61,107,68,0.8);border-radius:8px;padding:20px 24px;margin-bottom:24px;">
-    <p style="font-family:'Montserrat',Arial,sans-serif;font-size:13px;font-weight:700;color:#E8C56A !important;margin:0 0 6px;letter-spacing:0.05em;">✓ Request received.</p>
-    <p style="font-family:'Lora',Georgia,serif;font-size:0.9rem;color:#FFFFFF !important;margin:0;line-height:1.6;">Check your inbox — the Playbook is on its way.</p>
-  </div>
-
-  <form id="pb-form" action="https://api.web3forms.com/submit" method="POST" style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
-
-    <!-- REPLACE THIS VALUE with your Web3Forms Access Key from https://web3forms.com -->
-    <input type="hidden" name="access_key" value="cc356c8f-24a5-4521-a3b9-23c96d03572e">
-
-    <!-- Email subject line you'll see in your inbox -->
-    <input type="hidden" name="subject" value="New EUDR Playbook Request — Atunile Organics">
-
-    <!-- Where submissions are sent — change to your preferred inbox -->
-    <input type="hidden" name="from_name" value="Atunile Organics Website">
-
-    <!-- Redirect stays on page (we handle success in JS) -->
-    <input type="hidden" name="redirect" value="false">
-
+  <form onsubmit="handlePlaybookForm(event)" style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
     <div>
       <label style="font-family:'Montserrat',Arial,sans-serif;font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#E8C56A !important;display:block;margin-bottom:6px;">First Name</label>
-      <input type="text" name="First Name" id="pb-firstname" placeholder="Amara" required style="width:100%;background:rgba(250,246,238,0.15);border:1px solid rgba(232,197,106,0.6);border-radius:6px;padding:12px 14px;color:#FFFFFF !important;font-family:'Lora',Georgia,serif;font-size:0.9rem;box-sizing:border-box;">
+      <input type="text" id="pb-firstname" placeholder="Amara" required style="width:100%;background:rgba(250,246,238,0.15);border:1px solid rgba(232,197,106,0.6);border-radius:6px;padding:12px 14px;color:#FFFFFF !important;font-family:'Lora',Georgia,serif;font-size:0.9rem;">
     </div>
-
     <div>
       <label style="font-family:'Montserrat',Arial,sans-serif;font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#E8C56A !important;display:block;margin-bottom:6px;">Last Name</label>
-      <input type="text" name="Last Name" id="pb-lastname" placeholder="Johansson" required style="width:100%;background:rgba(250,246,238,0.15);border:1px solid rgba(232,197,106,0.6);border-radius:6px;padding:12px 14px;color:#FFFFFF !important;font-family:'Lora',Georgia,serif;font-size:0.9rem;box-sizing:border-box;">
+      <input type="text" id="pb-lastname" placeholder="Johansson" required style="width:100%;background:rgba(250,246,238,0.15);border:1px solid rgba(232,197,106,0.6);border-radius:6px;padding:12px 14px;color:#FFFFFF !important;font-family:'Lora',Georgia,serif;font-size:0.9rem;">
     </div>
-
     <div style="grid-column:1/-1;">
       <label style="font-family:'Montserrat',Arial,sans-serif;font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#E8C56A !important;display:block;margin-bottom:6px;">Work Email</label>
-      <input type="email" name="email" id="pb-email" placeholder="you@company.com" required style="width:100%;background:rgba(250,246,238,0.15);border:1px solid rgba(232,197,106,0.6);border-radius:6px;padding:12px 14px;color:#FFFFFF !important;font-family:'Lora',Georgia,serif;font-size:0.9rem;box-sizing:border-box;">
+      <input type="email" id="pb-email" placeholder="you@company.com" required style="width:100%;background:rgba(250,246,238,0.15);border:1px solid rgba(232,197,106,0.6);border-radius:6px;padding:12px 14px;color:#FFFFFF !important;font-family:'Lora',Georgia,serif;font-size:0.9rem;">
     </div>
-
     <div style="grid-column:1/-1;">
       <label style="font-family:'Montserrat',Arial,sans-serif;font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#E8C56A !important;display:block;margin-bottom:6px;">Company Name</label>
-      <input type="text" name="Company" id="pb-company" placeholder="Your company" required style="width:100%;background:rgba(250,246,238,0.15);border:1px solid rgba(232,197,106,0.6);border-radius:6px;padding:12px 14px;color:#FFFFFF !important;font-family:'Lora',Georgia,serif;font-size:0.9rem;box-sizing:border-box;">
+      <input type="text" id="pb-company" placeholder="Your company" required style="width:100%;background:rgba(250,246,238,0.15);border:1px solid rgba(232,197,106,0.6);border-radius:6px;padding:12px 14px;color:#FFFFFF !important;font-family:'Lora',Georgia,serif;font-size:0.9rem;">
     </div>
-
     <div style="grid-column:1/-1;">
       <label style="font-family:'Montserrat',Arial,sans-serif;font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#E8C56A !important;display:block;margin-bottom:6px;">Your Sector</label>
-      <select name="Sector" id="pb-sector" required style="width:100%;background:#3D2510;border:1px solid rgba(232,197,106,0.6);border-radius:6px;padding:12px 14px;color:#FFFFFF !important;font-family:'Lora',Georgia,serif;font-size:0.9rem;box-sizing:border-box;">
+      <select id="pb-sector" required style="width:100%;background:#3D2510;border:1px solid rgba(232,197,106,0.6);border-radius:6px;padding:12px 14px;color:#FFFFFF !important;font-family:'Lora',Georgia,serif;font-size:0.9rem;">
         <option value="" disabled selected style="color:#999;">Select your industry</option>
         <option value="cosmetics-personal-care">Cosmetics / Personal Care</option>
         <option value="pharmaceutical-nutraceutical">Pharmaceutical / Nutraceutical</option>
@@ -2570,63 +2542,19 @@ We explored this issue in detail in our article, "The Plot That Doesn't Exist."
         <option value="other">Other</option>
       </select>
     </div>
-
     <div style="grid-column:1/-1;">
-      <button type="submit" id="pb-submit" style="width:100%;background:linear-gradient(135deg,#C8922A,#B85C38);color:#FFFFFF !important;font-family:'Montserrat',Arial,sans-serif;font-size:13px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;padding:16px;border:none;border-radius:6px;cursor:pointer;transition:opacity 0.2s;">Send Me the Playbook →</button>
+      <button type="submit" style="width:100%;background:linear-gradient(135deg,#C8922A,#B85C38);color:#FFFFFF !important;font-family:'Montserrat',Arial,sans-serif;font-size:13px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;padding:16px;border:none;border-radius:6px;cursor:pointer;">Send Me the Playbook →</button>
     </div>
-
   </form>
-
   <p style="font-family:'Montserrat',Arial,sans-serif;font-size:11px;color:rgba(250,246,238,0.85) !important;margin:16px 0 0;text-align:center;">We respect your inbox. Your details go to Atunile Organics only. No third-party sharing, no newsletters unless you opt in.</p>
-
 </div>
-
-<script>
-  const pbForm = document.getElementById('pb-form');
-  const pbSuccess = document.getElementById('pb-success');
-  const pbSubmit = document.getElementById('pb-submit');
-
-  pbForm.addEventListener('submit', async function(e) {
-    e.preventDefault();
-    pbSubmit.textContent = 'Sending…';
-    pbSubmit.style.opacity = '0.7';
-    pbSubmit.disabled = true;
-
-    const formData = new FormData(pbForm);
-
-    try {
-      const response = await fetch('https://api.web3forms.com/submit', {
-        method: 'POST',
-        body: formData
-      });
-      const data = await response.json();
-
-      if (data.success) {
-        pbForm.style.display = 'none';
-        pbSuccess.style.display = 'block';
-      } else {
-        pbSubmit.textContent = 'Something went wrong — try again';
-        pbSubmit.style.opacity = '1';
-        pbSubmit.disabled = false;
-      }
-    } catch (err) {
-      pbSubmit.textContent = 'Network error — please retry';
-      pbSubmit.style.opacity = '1';
-      pbSubmit.disabled = false;
-    }
-  });
-</script>
-
 <!-- END EUDR PLAYBOOK FORM -->
-
-
-
 <!-- END EUDR PLAYBOOK FORM -->
 
 <!-- END EUDR PLAYBOOK FORM -->
     </div>
     <div style="grid-column:1/-1;">
-      <label style="font-family:'Montserrat',Arial,sans-serif;font-size:11px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:#C8922A;display:block;margin-bottom:6px;">Co</label>
+      <label style="font-family:'Montserrat',Arial,sans-serif;font-size:11px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:#C8922A;display:block;margin-bottom:6px;">Company Name</label>
       <input type="text" id="pb-company" placeholder="Your company" required style="width:100%;background:rgba(250,246,238,0.08);border:1px solid rgba(200,146,42,0.3);border-radius:6px;padding:12px 14px;color:#FAF6EE;font-family:'Lora',Georgia,serif;font-size:0.9rem;">
     </div>
     <div style="grid-column:1/-1;">
