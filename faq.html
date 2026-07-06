@@ -447,7 +447,9 @@ nav.nav{padding:3rem 1.2rem;height:60px;display:flex;align-items:center;}
     <button class="cat-btn" onclick="filterCat('buying', this)">Buying & Pricing</button>
     <button class="cat-btn" onclick="filterCat('compliance', this)">Compliance & EUDR</button>
     <button class="cat-btn" onclick="filterCat('sourcing', this)">Sourcing & Origin</button>
-    <button class="cat-btn" onclick="filterCat('applications', this)">Applications</button>
+   <button class="cat-btn" onclick="filterCat('applications', this)">Applications</button>
+    <button class="cat-btn" onclick="filterCat('quote', this)">Request Quote</button>
+  </nav>
   </nav>
 
   <!-- PRODUCT & SCIENCE -->
@@ -736,7 +738,40 @@ nav.nav{padding:3rem 1.2rem;height:60px;display:flex;align-items:center;}
       </div>
     </div>
   </div>
+<!-- REQUEST QUOTE -->
+  <div class="faq-section" data-cat="quote">
+    <div class="faq-section-title">Request a Quote</div>
+    <p style="margin-bottom: 24px;">Submit your application, buyer type, destination, and volume to receive tiered pricing and specification sheets.</p>
 
+    <form id="rfq-form" onsubmit="return submitRFQ(event)">
+      <div style="margin-bottom: 20px;">
+        <label style="display:block; font-family:'Montserrat',Arial,sans-serif; font-size:12px; font-weight:600; letter-spacing:0.5px; text-transform:uppercase; color:var(--earth-brown); margin-bottom:6px;">Application (cosmetics / pharmaceutical / food-nutraceutical)</label>
+        <input type="text" id="rfq-application" required style="width:100%; padding:12px 14px; border:1px solid rgba(92,58,30,0.2); border-radius:2px; font-family:'Lora',Georgia,serif; font-size:15px; background:var(--cream-white);">
+      </div>
+      <div style="margin-bottom: 20px;">
+        <label style="display:block; font-family:'Montserrat',Arial,sans-serif; font-size:12px; font-weight:600; letter-spacing:0.5px; text-transform:uppercase; color:var(--earth-brown); margin-bottom:6px;">Buyer Type</label>
+        <select id="rfq-buyer-type" required style="width:100%; padding:12px 14px; border:1px solid rgba(92,58,30,0.2); border-radius:2px; font-family:'Lora',Georgia,serif; font-size:15px; background:var(--cream-white);">
+          <option value="">Select...</option>
+          <option value="Manufacturer">Manufacturer</option>
+          <option value="Distributor">Distributor</option>
+          <option value="Reseller">Reseller</option>
+        </select>
+      </div>
+      <div style="margin-bottom: 20px;">
+        <label style="display:block; font-family:'Montserrat',Arial,sans-serif; font-size:12px; font-weight:600; letter-spacing:0.5px; text-transform:uppercase; color:var(--earth-brown); margin-bottom:6px;">Destination Country</label>
+        <input type="text" id="rfq-destination" required style="width:100%; padding:12px 14px; border:1px solid rgba(92,58,30,0.2); border-radius:2px; font-family:'Lora',Georgia,serif; font-size:15px; background:var(--cream-white);">
+      </div>
+      <div style="margin-bottom: 20px;">
+        <label style="display:block; font-family:'Montserrat',Arial,sans-serif; font-size:12px; font-weight:600; letter-spacing:0.5px; text-transform:uppercase; color:var(--earth-brown); margin-bottom:6px;">Volume (kg)</label>
+        <input type="number" id="rfq-volume" min="5" required style="width:100%; padding:12px 14px; border:1px solid rgba(92,58,30,0.2); border-radius:2px; font-family:'Lora',Georgia,serif; font-size:15px; background:var(--cream-white);">
+      </div>
+      <div style="margin-bottom: 24px;">
+        <label style="display:block; font-family:'Montserrat',Arial,sans-serif; font-size:12px; font-weight:600; letter-spacing:0.5px; text-transform:uppercase; color:var(--earth-brown); margin-bottom:6px;">Your Email</label>
+        <input type="email" id="rfq-email" required style="width:100%; padding:12px 14px; border:1px solid rgba(92,58,30,0.2); border-radius:2px; font-family:'Lora',Georgia,serif; font-size:15px; background:var(--cream-white);">
+      </div>
+      <button type="submit" class="cta-btn" style="border:none; cursor:pointer; font-size:12px;">Submit Request</button>
+    </form>
+  </div>
   <!-- Inline CTA -->
   <div class="inline-cta">
     <h3>Ready to Source Vitellaria nilotica?</h3>
@@ -771,6 +806,21 @@ nav.nav{padding:3rem 1.2rem;height:60px;display:flex;align-items:center;}
         section.style.display = 'none';
       }
     });
+  }
+  function submitRFQ(e) {
+    e.preventDefault();
+    var application = document.getElementById('rfq-application').value;
+    var buyerType = document.getElementById('rfq-buyer-type').value;
+    var destination = document.getElementById('rfq-destination').value;
+    var volume = document.getElementById('rfq-volume').value;
+    var email = document.getElementById('rfq-email').value;
+    var user = 'atukwatseb';
+    var domain = 'atunileorganics.com';
+    var to = user + '@' + domain;
+    var subject = encodeURIComponent('RFQ: ' + buyerType + ' — ' + destination + ' — ' + volume + 'kg');
+    var body = encodeURIComponent('Application: ' + application + '\nBuyer type: ' + buyerType + '\nDestination: ' + destination + '\nVolume: ' + volume + 'kg\nReply-to: ' + email);
+    window.location.href = 'mailto:' + to + '?subject=' + subject + '&body=' + body;
+    return false;
   }
 </script>
 
