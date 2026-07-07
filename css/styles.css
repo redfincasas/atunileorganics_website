@@ -1447,7 +1447,9 @@ nav{padding:3rem 1.2rem;height:60px;display:flex;align-items:center;}
 
 .shop-cta-wrap{flex-direction:column;gap:0.8rem;} 
 
-.shop-cta-wrap .btn-primary,.shop-cta-wrap .btn-outline{width:100%;text-align:center;} 
+.shop-cta-wrap .btn-primary,.shop-cta-wrap .btn-outline{width:100%;text-align:center;}
+
+.shop-testimonial-grid{grid-template-columns:1fr!important;}
 
 .variant-options{flex-wrap:wrap;} 
 
