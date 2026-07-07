@@ -69,14 +69,8 @@
   "countryOfOrigin": "Uganda",
   "offers": {
     "@type": "Offer",
-    "priceCurrency": "USD",
-    "price": "8.50",
-    "priceSpecification": {
-      "@type": "UnitPriceSpecification",
-      "price": "8.50",
-      "priceCurrency": "USD",
-      "unitCode": "KGM"
-    },
+    "availability": "https://schema.org/PreOrder",
+    "availabilityStarts": "2027-01-15",
     "seller": {
       "@type": "Organization",
       "name": "Atunile Organics"
@@ -618,9 +612,11 @@
 
 
 
-        <div class="shop-payment">
+        <div class="shop-status-row" style="display:flex;gap:0.6rem;flex-wrap:wrap;margin-top:1rem;">
 
-          <p>💳 Accepting MTN Momo &amp; Airtel Mobile Money Payments: <strong>+256 768 920494</strong></p>
+          <span style="display:inline-flex;align-items:center;background:var(--earth);color:var(--cream);font-size:0.62rem;letter-spacing:0.15em;text-transform:uppercase;padding:0.35rem 0.9rem;font-weight:500;border-radius:4px;">Opening January 2027</span>
+
+          <span style="display:inline-flex;align-items:center;background:var(--gold);color:var(--ivory);font-size:0.62rem;letter-spacing:0.15em;text-transform:uppercase;padding:0.35rem 0.9rem;font-weight:500;border-radius:4px;">UNBS Certified</span>
 
         </div>
 
@@ -628,11 +624,15 @@
 
         <div class="shop-cta-wrap">
 
-          <a href="https://wa.me/256768920494" target="_blank" class="btn-primary">Chat on WhatsApp to Order</a>
+          <a onclick="showPage('exports')" class="btn-primary" style="cursor:pointer;">Inquire via Atunile Exports (B2B)</a>
 
-          <a href="mailto:atukwatseb@atunileorganics.com" class="btn-outline">Email to Order</a>
+          <a href="nilotica.html" class="btn-outline">Learn About Nilotica</a>
 
         </div>
+
+
+
+        <p style="margin-top:1rem;font-size:0.72rem;color:var(--earth);">Want to hear when retail opens? Reach us at <a href="mailto:info@atunileorganics.com" style="color:var(--gold);">info@atunileorganics.com</a></p>
 
 
 
@@ -2908,12 +2908,11 @@
 
           <div class="contact-item">
 
-            <div class="contact-item-icon">💳</div>
+            <div class="contact-item-icon">📱</div>
 
             <div>
-              <p class="contact-item-label">Mobile Money</p>
-              <p class="contact-item-value">Accepting MTN Momo &amp; Airtel Mobile Money<br />+256 768 920494
-              </p>
+              <p class="contact-item-label">WhatsApp</p>
+              <p class="contact-item-value">+256 768 920494</p>
             </div>
 
           </div>
