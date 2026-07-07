@@ -31,6 +31,12 @@ if (window.location.hash !== '#' + id) {
 }
 }
 
+function swapShopImage(thumb){
+var mainImg=document.querySelector('.shop-gallery-main img');
+var thumbImg=thumb.querySelector('img');
+if(mainImg&&thumbImg)mainImg.src=thumbImg.src;
+}
+
 function showBlogPost(id){
     var p = document.querySelectorAll('[id^="post-"]');
     for(var i = 0; i < p.length; i++) p[i].style.display = 'none';
