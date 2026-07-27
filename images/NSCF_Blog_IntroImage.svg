@@ -1,0 +1,127 @@
+<svg width="100%" viewBox="0 0 680 440" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Nilotica Shea Community Foundation illustration</title>
+<desc>A warm illustration of a Northern Uganda shea parkland at sunset, with shea trees, a rising sun, and women harvesters carrying baskets, ending in a ribbon with the Foundation name.</desc>
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#FAF6EE"/>
+<stop offset="55%" stop-color="#F2D9A0"/>
+<stop offset="100%" stop-color="#E8C56A"/>
+</linearGradient>
+<linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#B85C38"/>
+<stop offset="100%" stop-color="#5C3A1E"/>
+</linearGradient>
+</defs>
+
+<rect x="0" y="0" width="680" height="300" fill="url(#sky)"/>
+
+<circle cx="340" cy="230" r="78" fill="#C8922A"/>
+<circle cx="340" cy="230" r="96" fill="#E8C56A" opacity="0.35"/>
+
+<path d="M0 260 Q170 220 340 250 Q510 280 680 245 L680 300 L0 300 Z" fill="#8B6F47" opacity="0.55"/>
+
+<rect x="0" y="255" width="680" height="145" fill="url(#ground)"/>
+
+<g>
+<circle cx="90" cy="150" r="44" fill="#C09D39"/>
+<circle cx="90" cy="150" r="40" fill="#34543C"/>
+<circle cx="90" cy="142" r="19" fill="#E0C582"/>
+<circle cx="78" cy="150" r="13" fill="#E0C582"/>
+<circle cx="102" cy="150" r="13" fill="#E0C582"/>
+<rect x="85" y="158" width="10" height="20" fill="#F9F4EE" rx="2"/>
+<path d="M74 178 Q90 172 106 178" stroke="#F9F4EE" stroke-width="3" fill="none" stroke-linecap="round"/>
+</g>
+
+<path d="M85.5 194.0 Q82.5 224.5 82.5 255.0 L97.5 255.0 Q97.5 224.5 94.5 194.0 Z" fill="#F9F4EE"/>
+<circle cx="90.0" cy="255.0" r="6.5" fill="#F9F4EE"/>
+<circle cx="87.8" cy="265.7" r="5.4" fill="#F9F4EE"/>
+<circle cx="78.1" cy="276.3" r="4.2" fill="#F9F4EE"/>
+<circle cx="71.4" cy="287.0" r="3.1" fill="#F9F4EE"/>
+<circle cx="68.8" cy="297.6" r="2.0" fill="#F9F4EE"/>
+<circle cx="90.0" cy="255.0" r="6.8" fill="#F9F4EE"/>
+<circle cx="92.4" cy="266.1" r="5.7" fill="#F9F4EE"/>
+<circle cx="89.4" cy="277.1" r="4.5" fill="#F9F4EE"/>
+<circle cx="88.6" cy="288.1" r="3.4" fill="#F9F4EE"/>
+<circle cx="90.7" cy="299.2" r="2.2" fill="#F9F4EE"/>
+<circle cx="90.0" cy="255.0" r="6.5" fill="#F9F4EE"/>
+<circle cx="98.9" cy="265.7" r="5.4" fill="#F9F4EE"/>
+<circle cx="100.2" cy="276.3" r="4.2" fill="#F9F4EE"/>
+<circle cx="104.7" cy="287.0" r="3.1" fill="#F9F4EE"/>
+<circle cx="113.1" cy="297.6" r="2.0" fill="#F9F4EE"/>
+
+<g>
+<circle cx="590" cy="140" r="54" fill="#C09D39"/>
+<circle cx="590" cy="140" r="49" fill="#34543C"/>
+<circle cx="590" cy="130" r="23" fill="#E0C582"/>
+<circle cx="574" cy="140" r="16" fill="#E0C582"/>
+<circle cx="606" cy="140" r="16" fill="#E0C582"/>
+<rect x="584" y="150" width="12" height="26" fill="#F9F4EE" rx="2"/>
+<path d="M570 184 Q590 176 610 184" stroke="#F9F4EE" stroke-width="4" fill="none" stroke-linecap="round"/>
+</g>
+
+<path d="M584.5 194.0 Q580.5 224.5 580.5 255.0 L599.5 255.0 Q599.5 224.5 595.5 194.0 Z" fill="#F9F4EE"/>
+<circle cx="590.0" cy="255.0" r="7.5" fill="#F9F4EE"/>
+<circle cx="588.9" cy="264.8" r="6.4" fill="#F9F4EE"/>
+<circle cx="580.6" cy="274.7" r="5.4" fill="#F9F4EE"/>
+<circle cx="571.1" cy="284.5" r="4.3" fill="#F9F4EE"/>
+<circle cx="566.6" cy="294.4" r="3.3" fill="#F9F4EE"/>
+<circle cx="564.2" cy="304.2" r="2.2" fill="#F9F4EE"/>
+<circle cx="590.0" cy="255.0" r="8.0" fill="#F9F4EE"/>
+<circle cx="592.8" cy="265.4" r="6.9" fill="#F9F4EE"/>
+<circle cx="590.9" cy="275.8" r="5.8" fill="#F9F4EE"/>
+<circle cx="588.3" cy="286.2" r="4.7" fill="#F9F4EE"/>
+<circle cx="588.9" cy="296.6" r="3.6" fill="#F9F4EE"/>
+<circle cx="590.8" cy="307.0" r="2.5" fill="#F9F4EE"/>
+<circle cx="590.0" cy="255.0" r="7.5" fill="#F9F4EE"/>
+<circle cx="599.7" cy="264.8" r="6.4" fill="#F9F4EE"/>
+<circle cx="602.2" cy="274.7" r="5.4" fill="#F9F4EE"/>
+<circle cx="603.5" cy="284.5" r="4.3" fill="#F9F4EE"/>
+<circle cx="609.8" cy="294.4" r="3.3" fill="#F9F4EE"/>
+<circle cx="618.2" cy="304.2" r="2.2" fill="#F9F4EE"/>
+
+<g opacity="0.9">
+<circle cx="250" cy="178" r="30" fill="#C09D39"/>
+<circle cx="250" cy="178" r="27" fill="#34543C"/>
+<circle cx="250" cy="172" r="13" fill="#E0C582"/>
+<circle cx="241" cy="178" r="9" fill="#E0C582"/>
+<circle cx="259" cy="178" r="9" fill="#E0C582"/>
+<rect x="246" y="185" width="8" height="14" fill="#F9F4EE" rx="1.5"/>
+<path d="M238 199 Q250 194 262 199" stroke="#F9F4EE" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+</g>
+
+<path d="M247.5 208.0 Q245.5 231.5 245.5 255.0 L254.5 255.0 Q254.5 231.5 252.5 208.0 Z" fill="#F9F4EE"/>
+<circle cx="250.0" cy="255.0" r="4.0" fill="#F9F4EE"/>
+<circle cx="247.1" cy="263.8" r="3.1" fill="#F9F4EE"/>
+<circle cx="240.3" cy="272.6" r="2.3" fill="#F9F4EE"/>
+<circle cx="237.9" cy="281.4" r="1.4" fill="#F9F4EE"/>
+<circle cx="250.0" cy="255.0" r="4.2" fill="#F9F4EE"/>
+<circle cx="250.9" cy="263.7" r="3.3" fill="#F9F4EE"/>
+<circle cx="249.1" cy="272.3" r="2.4" fill="#F9F4EE"/>
+<circle cx="250.4" cy="281.0" r="1.5" fill="#F9F4EE"/>
+<circle cx="250.0" cy="255.0" r="4.0" fill="#F9F4EE"/>
+<circle cx="255.5" cy="263.8" r="3.1" fill="#F9F4EE"/>
+<circle cx="257.1" cy="272.6" r="2.3" fill="#F9F4EE"/>
+<circle cx="263.1" cy="281.4" r="1.4" fill="#F9F4EE"/>
+
+<g fill="#2B2B2B">
+<path d="M195 340 Q195 300 210 300 Q225 300 225 340 L225 400 L195 400 Z"/>
+<ellipse cx="210" cy="292" rx="12" ry="12"/>
+<ellipse cx="210" cy="270" rx="16" ry="20" fill="#B85C38"/>
+<path d="M190 315 Q170 305 175 285" stroke="#2B2B2B" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M230 315 Q250 305 245 285" stroke="#2B2B2B" stroke-width="4" fill="none" stroke-linecap="round"/>
+</g>
+
+<g fill="#2B2B2B">
+<path d="M425 350 Q425 312 440 312 Q455 312 455 350 L455 400 L425 400 Z"/>
+<ellipse cx="440" cy="304" rx="12" ry="12"/>
+<ellipse cx="440" cy="282" rx="16" ry="20" fill="#5C3A1E"/>
+<path d="M420 325 Q400 318 402 298" stroke="#2B2B2B" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M460 325 Q480 318 478 298" stroke="#2B2B2B" stroke-width="4" fill="none" stroke-linecap="round"/>
+</g>
+
+<circle cx="120" cy="330" r="7" fill="#FAF6EE" opacity="0.85"/>
+<circle cx="530" cy="345" r="7" fill="#FAF6EE" opacity="0.85"/>
+
+<rect x="0" y="400" width="680" height="40" fill="#5C3A1E"/>
+<text x="340" y="426" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#FAF6EE">Nilotica Shea Community Foundation, Uganda</text>
+</svg>
