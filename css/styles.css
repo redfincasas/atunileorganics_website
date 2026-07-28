@@ -1957,9 +1957,9 @@ nav { background: rgba(250,246,237,0.93) !important; }
 
 #page-shop .shop-variant-subtitle { color: #E4A588 !important; }
 
-#page-shop .shop-variant-tag { color: var(--light-sage) !important; }
+#page-shop .shop-variant-tag { color: var(--gold) !important; }
 
-#page-shop .shop-variant-tag-cta { color: var(--light-sage) !important; }
+#page-shop .shop-variant-tag-cta { color: var(--gold) !important; }
 
 #page-shop .variant-btn { border: 1px solid rgba(245,239,224,0.3) !important; color: rgba(245,239,224,0.8) !important; background: none !important; } 
 
