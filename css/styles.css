@@ -1951,7 +1951,7 @@ nav { background: rgba(250,246,237,0.93) !important; }
 
 #page-shop .shop-ingredients p { color: rgba(245,239,224,0.75) !important; }
 
-#page-shop .shop-variant-desc { color: var(--cream) !important; }
+#page-shop .shop-variant-desc { color: rgba(245,239,224,0.55) !important; font-weight: 400 !important; }
 
 #page-shop .shop-variant-title { color: var(--cream) !important; }
 
@@ -1959,7 +1959,7 @@ nav { background: rgba(250,246,237,0.93) !important; }
 
 #page-shop .shop-variant-tag { color: var(--light-sage) !important; }
 
-#page-shop .shop-variant-tag-cta { color: #E4A588 !important; }
+#page-shop .shop-variant-tag-cta { color: var(--light-sage) !important; }
 
 #page-shop .variant-btn { border: 1px solid rgba(245,239,224,0.3) !important; color: rgba(245,239,224,0.8) !important; background: none !important; } 
 
