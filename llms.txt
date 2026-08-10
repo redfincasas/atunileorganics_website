@@ -5,18 +5,24 @@
 Atunile Organics is a B2B export supplier to cosmetics, pharmaceutical, and food/nutraceutical manufacturers. Certifications: UNBS certified (Permit No. 24969-1822-0030). REX registered (EU Registered Exporter System). EUDR pre-compliant. Organic certification (ECOCERT Africa) in progress, target end 2026.
 
 ## Pricing
-EXW Kampala pricing ranges from USD 6.35/kg to USD 16.94/kg depending on order volume, season, and availability. FOB and CIF terms also available for larger confirmed orders — contact for details. Minimum order quantity: 5kg. See https://atunileorganics.com/#exports for inquiry contact.
+EXW Kampala pricing ranges from USD 6.35/kg to USD 16.94/kg depending on order volume, season, and availability. FOB and CIF terms also available for larger confirmed orders — contact for details. Minimum order quantity: 5kg. See https://atunileorganics.com/exports for inquiry contact.
 
 ## Retail
-Retail sales are not yet open. Retail is planned to launch January 15, 2027. For current inquiries, B2B export is the active channel: https://atunileorganics.com/#exports
+Retail sales are not yet open. Retail is planned to launch January 15, 2027. For current inquiries, B2B export is the active channel: https://atunileorganics.com/exports
 
 ## Primary pages
-- https://atunileorganics.com/ — home, shop status, exports, contact (all sections included in this single page)
+- https://atunileorganics.com/ — homepage
+- https://atunileorganics.com/shop — retail product page, Nilotica shea butter variants and sizes
+- https://atunileorganics.com/exports — B2B export grades (cosmetic, food, pharmaceutical), inquiry contact
+- https://atunileorganics.com/about — company background and sourcing model
+- https://atunileorganics.com/mission — mission statement and four pillars
+- https://atunileorganics.com/contact — contact details and location
+- https://atunileorganics.com/ethics — code of ethics: fair trade, labour standards, environmental stewardship
 - https://atunileorganics.com/nilotica — product and species information
 - https://atunileorganics.com/faq — buyer questions and answers
 
 ## Language versions
-French and German translations are also available (hero, about, mission, exports, full nilotica and FAQ pages):
+French and German translations are available for the homepage, nilotica, and FAQ pages:
 - https://atunileorganics.com/fr/ — French homepage
 - https://atunileorganics.com/fr/nilotica — French product and species information
 - https://atunileorganics.com/fr/faq — French buyer questions and answers
