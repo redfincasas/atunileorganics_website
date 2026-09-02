@@ -51,6 +51,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://atunileorganics.com/what-is-vitellaria-nilotica</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://atunileorganics.com/fr/</loc>
     <priority>0.9</priority>
     <changefreq>weekly</changefreq>
